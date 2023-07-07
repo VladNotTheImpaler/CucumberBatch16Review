@@ -26,7 +26,7 @@ Feature: Login related scenarios
 
 
 #it is just for an example to see how datatables can be utilized
-#  not recommended for this scnario to use dataTables but to use Scnario Outline
+#  not recommended for this scenario to use dataTables but to use Scenario Outline
   @dataTable
   Scenario:validate that error message is correct
     When the user Enters the userName password and clicks on login button Then the errorMsg is verified

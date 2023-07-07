@@ -39,7 +39,7 @@ public class LoginSteps extends CommonMethods {
     public void user_is_successfully_logged_in_the_application() {
         Log.info("the test case is in final step");
         String actualMsg = dash.WelcomeMsg.getText();
-        String expectedMsg = "Welcome Admi";
+        String expectedMsg = "Welcome Admin";
         Assert.assertEquals(expectedMsg, actualMsg);
     }
 
